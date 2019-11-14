@@ -20,12 +20,17 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 (keras) jupyter notebook .
 ```
 
-## 데이터
+## 데이터 및 모델
 강의에서 사용할 데이터는 Google Drive에 업로드에 되어있습니다. 다운로드 후 사용하시길 바랍니다.
+
+### 데이터
 - Fashion MNIST :
 - Kaggle Cat & Dog : 
 - Kaggle Intel Scene Image :
 - VOC2012 : 
+
+### 모델
+- 20가지 클래스가 학습된 MobileNet : 
 
 ## 강의 구성
 |차수|내용|
