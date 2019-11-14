@@ -21,7 +21,8 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 ```
 
 ## 데이터
-강의에서 사용할 데이터는 구글 드라이브에 업로드에 되어있습니다. 다운로드 후 사용하시길 바랍니다.
+강의에서 사용할 데이터는 Google Drive에 업로드에 되어있습니다. 다운로드 후 사용하시길 바랍니다.
+- Fashion MNIST :
 - Kaggle Cat & Dog : 
 - Kaggle Intel Scene Image :
 - VOC2012 : 
@@ -34,11 +35,11 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 |3강 |`간단한 CNN 모델`을 만들어 **Fashion MNIST 데이터셋**을 학습 후 이미지 분류|
 |4강 |`조금 더 깊은 CNN 모델`을 만들어 **CIFAR10 데이터셋**을 학습 후 이미지 분류|
 |5강 |`VGG16 모델`을 통하여 **Kaggle Cat & Dog 데이터셋**을 학습 후 이미지 분류|
-|6강 |`ResNet50 모델`을 통하여 **CIFAR100 데이터셋**을 학습 후 이미지 분류 (번경예정)|
+|6강 |`ResNet50 모델`을 통하여 **CIFAR100 데이터셋**을 학습 후 이미지 분류 (*변경예정*)|
 |7강 |`ResNet50 모델`을 통하여 **Kaggle Intel Scene Image 데이터셋**을 학습 후 이미지 분류|
 |8강 |`MobileNet 모델`을 통하여 **VOC2012**에 속해 있는 20가지 데이터셋을 학습 후 이미지 분류|
-|9강 |`MobileNet 모델`을 통하여 **내가 원하는 클래스를 크롤링** 후 이미지 분류(진행예정)| 
-|10강|학습된 h5파일을 caffemodel로 변경하기(폐지예정)| 
+|9강 |`MobileNet 모델`을 통하여 **내가 원하는 클래스를 크롤링** 후 이미지 분류(*진행예정*)| 
+|10강|학습된 h5파일을 caffemodel로 변경하기(*폐지예정*)| 
 
 ## 참고
 - Intel Korea : https://www.intel.co.kr/content/www/kr/ko/company-overview/company-overview.html
