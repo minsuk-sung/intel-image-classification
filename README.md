@@ -11,10 +11,20 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 모든 강의자료는 아나콘다를 통해 가상환경을 생성한 뒤 아래와 같은 명령어를 통해 환경설정을 할 수 있습니다.
 괄호 안은 가상환경의 이름이므로 괄호 이후 문자열을 복사하여 터미널에 입력해주시길 바랍니다.
 ```
+(base) git clone https://github.com/mssung94/intel-image-classification.git
+(base) cd intel-image-classification
 (base) conda create -n keras python=3.6
 (base) conda activate keras
+(keras) mkdir bin data
 (keras) pip install -r requirements.txt
+(keras) jupyter notebook .
 ```
+
+## 데이터
+강의에서 사용할 데이터는 구글 드라이브에 업로드에 되어있습니다. 다운로드 후 사용하시길 바랍니다.
+- Kaggle Cat & Dog : 
+- Kaggle Intel Scene Image :
+- VOC2012 : 
 
 ## 강의 구성
 |차수|내용|
@@ -31,4 +41,10 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 |10강|학습된 h5파일을 caffemodel로 변경하기(폐지예정)| 
 
 ## 참고
-- https://www.intel.co.kr/content/www/kr/ko/company-overview/company-overview.html
+- Intel Korea : https://www.intel.co.kr/content/www/kr/ko/company-overview/company-overview.html
+- Intel OpenVINO : https://software.intel.com/en-us/openvino-toolkit
+- Kaggle Cat & Dog (Original) : https://www.kaggle.com/c/dogs-vs-cats
+- Kaggle Intel Scene Image (Original) : https://www.kaggle.com/puneet6060/intel-image-classification
+- VOC2012 (Original) : http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
+- MobileNet : https://arxiv.org/pdf/1704.04861.pdf
+- MobileNetV2 : https://arxiv.org/pdf/1801.04381.pdf
