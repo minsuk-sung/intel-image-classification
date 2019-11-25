@@ -49,7 +49,7 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 |7강 |`ResNet50 모델`을 통하여 **Kaggle Intel Scene Image 데이터셋**을 학습 후 이미지 분류|
 |8강 |`MobileNet 모델`을 통하여 **VOC2012**에 속해 있는 20가지 데이터셋을 학습 후 이미지 분류|
 |9강 |`MobileNet 모델`을 통하여 **내가 원하는 클래스를 크롤링** 후 이미지 분류(*진행예정*)| 
-|10강|학습된 h5파일을 caffemodel로 변경하기(*폐지예정*)| 
+|10강|학습된 h5파일을 pb파일를 거쳐 xml,bin파일로 변경하기(*추가예정*)| 
 
 ## 참고
 - Intel Korea : https://www.intel.co.kr/content/www/kr/ko/company-overview/company-overview.html
