@@ -9,7 +9,7 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 
 ## 환경설정
 모든 강의자료는 아나콘다를 통해 가상환경을 생성한 뒤 아래와 같은 명령어를 통해 환경설정을 할 수 있습니다.
-괄호 안은 가상환경의 이름이므로 괄호 이후 문자열을 복사하여 터미널에 입력해주시길 바랍니다.
+괄호 안은 가상환경의 이름이므로 괄호 이후 문자열을 복사하여 터미널에 입력해주시길 바랍니다. Tensorflow와 Keras 등 필수적인 라이브러리의 버전은 설치 후 확인 바랍니다.
 ```
 (base) git clone https://github.com/mssung94/intel-image-classification.git
 (base) cd intel-image-classification
@@ -36,7 +36,7 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 - 20가지 클래스가 학습된 MobileNet : 
 
 ## 강의 구성
-천천히 단계적으로 따라올 수 있도록 강의를 구성했습니다. 처음에는 딥러닝에 대한 기초지식과 Keras를 통하여 간단하게 CNN모델을 만드는 것부터 시작하여 후반에는 VGG16, ResNet 및 MobileNet의 Pretrained Model을 가지고 다양한 데이터셋을 학습하여 이미지를 분류합니다.
+천천히 단계적으로 따라올 수 있도록 강의를 구성했습니다. 처음에는 딥러닝에 대한 기초지식과 Keras를 통하여 간단하게 CNN모델을 만드는 것부터 시작하여 후반에는 VGG16, ResNet 및 MobileNet의 Pretrained Model을 가지고 다양한 데이터셋을 학습하여 이미지를 분류합니다. 마지막으로 그렇게 학습된 h5파일을 Intel OpenVINO에서 사용할 수 있게 xml,bin파일로 변환하는 과정이 담겨있습니다. 또한 그렇게 변환된 xml과 bin파일을 통하여 OpenVINO에서 이미지 분류할 수 있습니다.
 
 |차수|내용|
 |---|---|
@@ -49,7 +49,7 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 |7강 |`ResNet50 모델`을 통하여 **Kaggle Intel Scene Image 데이터셋**을 학습 후 이미지 분류|
 |8강 |`MobileNet 모델`을 통하여 **VOC2012**에 속해 있는 20가지 데이터셋을 학습 후 이미지 분류|
 |9강 |`MobileNet 모델`을 통하여 **내가 원하는 클래스를 크롤링** 후 이미지 분류(*진행예정*)| 
-|10강|학습된 h5파일을 pb파일를 거쳐 xml,bin파일로 변경하기(*추가예정*)| 
+|10강|학습된 `Keras h5파일`을 `Tensorflow pb파일`를 거쳐 `OpenVINO xml,bin파일`로 변환 후 **OpenVINO를 이용**하여 이미지 분류| 
 
 ## 참고
 - Intel Korea : https://www.intel.co.kr/content/www/kr/ko/company-overview/company-overview.html
