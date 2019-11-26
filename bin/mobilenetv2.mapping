@@ -1,0 +1,423 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_13_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="74" name="mobilenetv2_1.00_224_1/block_13_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_12_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="68" name="mobilenetv2_1.00_224_1/block_12_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_1_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="6" name="mobilenetv2_1.00_224_1/block_1_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_13_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="78" name="mobilenetv2_1.00_224_1/block_13_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_11_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="66" name="mobilenetv2_1.00_224_1/block_11_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_input_1" out_port_id="0"/>
+		<IR id="0" name="mobilenetv2_1.00_224_input_1" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_1_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="10" name="mobilenetv2_1.00_224_1/block_1_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_1_1/BiasAdd" out_port_id="0"/>
+		<IR id="103" name="dense_1_1/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_14_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="81" name="mobilenetv2_1.00_224_1/block_14_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_2_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="14" name="mobilenetv2_1.00_224_1/block_2_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2_1/Softmax" out_port_id="0"/>
+		<IR id="106" name="dense_2_1/Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_5_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="28" name="mobilenetv2_1.00_224_1/block_5_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/expanded_conv_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="4" name="mobilenetv2_1.00_224_1/expanded_conv_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_3_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="20" name="mobilenetv2_1.00_224_1/block_3_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_13_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="77" name="mobilenetv2_1.00_224_1/block_13_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_9_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="52" name="mobilenetv2_1.00_224_1/block_9_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_11_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="63" name="mobilenetv2_1.00_224_1/block_11_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_8_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="48" name="mobilenetv2_1.00_224_1/block_8_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/bn_Conv1/FusedBatchNorm" out_port_id="0"/>
+		<IR id="1" name="mobilenetv2_1.00_224_1/Conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_15_add/add" out_port_id="0"/>
+		<IR id="90" name="mobilenetv2_1.00_224_1/block_15_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_7_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="41" name="mobilenetv2_1.00_224_1/block_7_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_16_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="95" name="mobilenetv2_1.00_224_1/block_16_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_14_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="82" name="mobilenetv2_1.00_224_1/block_14_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_5_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="29" name="mobilenetv2_1.00_224_1/block_5_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_16_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="94" name="mobilenetv2_1.00_224_1/block_16_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_12_add/add" out_port_id="0"/>
+		<IR id="73" name="mobilenetv2_1.00_224_1/block_12_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_10_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="58" name="mobilenetv2_1.00_224_1/block_10_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_7_add/add" out_port_id="0"/>
+		<IR id="44" name="mobilenetv2_1.00_224_1/block_7_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_4_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="23" name="mobilenetv2_1.00_224_1/block_4_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/out_relu/Relu6" out_port_id="0"/>
+		<IR id="97" name="mobilenetv2_1.00_224_1/out_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_12_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="71" name="mobilenetv2_1.00_224_1/block_12_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2_1/BiasAdd" out_port_id="0"/>
+		<IR id="105" name="dense_2_1/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_3_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="19" name="mobilenetv2_1.00_224_1/block_3_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_15_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="87" name="mobilenetv2_1.00_224_1/block_15_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/expanded_conv_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="3" name="mobilenetv2_1.00_224_1/expanded_conv_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_1_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="7" name="mobilenetv2_1.00_224_1/block_1_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_2_add/add" out_port_id="0"/>
+		<IR id="16" name="mobilenetv2_1.00_224_1/block_2_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_3_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="18" name="mobilenetv2_1.00_224_1/block_3_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_10_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="60" name="mobilenetv2_1.00_224_1/block_10_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_12_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="70" name="mobilenetv2_1.00_224_1/block_12_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_7_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="43" name="mobilenetv2_1.00_224_1/block_7_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_8_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="45" name="mobilenetv2_1.00_224_1/block_8_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_6_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="37" name="mobilenetv2_1.00_224_1/block_6_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_7_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="39" name="mobilenetv2_1.00_224_1/block_7_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="global_average_pooling2d_1/Mean" out_port_id="0"/>
+		<IR id="100" name="Reshape_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_3_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="21" name="mobilenetv2_1.00_224_1/block_3_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_9_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="55" name="mobilenetv2_1.00_224_1/block_9_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_16_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="93" name="mobilenetv2_1.00_224_1/block_16_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_6_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="36" name="mobilenetv2_1.00_224_1/block_6_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_7_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="42" name="mobilenetv2_1.00_224_1/block_7_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_5_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="31" name="mobilenetv2_1.00_224_1/block_5_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/Conv1_relu/Relu6" out_port_id="0"/>
+		<IR id="2" name="mobilenetv2_1.00_224_1/Conv1_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_2_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="11" name="mobilenetv2_1.00_224_1/block_2_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_4_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="22" name="mobilenetv2_1.00_224_1/block_4_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_8_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="46" name="mobilenetv2_1.00_224_1/block_8_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_9_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="51" name="mobilenetv2_1.00_224_1/block_9_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_11_add/add" out_port_id="0"/>
+		<IR id="67" name="mobilenetv2_1.00_224_1/block_11_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_15_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="88" name="mobilenetv2_1.00_224_1/block_15_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_5_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="32" name="mobilenetv2_1.00_224_1/block_5_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_1_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="8" name="mobilenetv2_1.00_224_1/block_1_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_6_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="34" name="mobilenetv2_1.00_224_1/block_6_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_8_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="49" name="mobilenetv2_1.00_224_1/block_8_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_9_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="54" name="mobilenetv2_1.00_224_1/block_9_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_11_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="64" name="mobilenetv2_1.00_224_1/block_11_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_11_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="65" name="mobilenetv2_1.00_224_1/block_11_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_14_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="79" name="mobilenetv2_1.00_224_1/block_14_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_14_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="83" name="mobilenetv2_1.00_224_1/block_14_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_4_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="25" name="mobilenetv2_1.00_224_1/block_4_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_8_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="47" name="mobilenetv2_1.00_224_1/block_8_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_9_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="53" name="mobilenetv2_1.00_224_1/block_9_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_10_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="57" name="mobilenetv2_1.00_224_1/block_10_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_14_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="80" name="mobilenetv2_1.00_224_1/block_14_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/expanded_conv_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="5" name="mobilenetv2_1.00_224_1/expanded_conv_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_4_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="26" name="mobilenetv2_1.00_224_1/block_4_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_3/BiasAdd" out_port_id="0"/>
+		<IR id="101" name="dense_3/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_2_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="12" name="mobilenetv2_1.00_224_1/block_2_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_1_1/Relu" out_port_id="0"/>
+		<IR id="104" name="dense_1_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_5_add/add" out_port_id="0"/>
+		<IR id="33" name="mobilenetv2_1.00_224_1/block_5_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_12_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="69" name="mobilenetv2_1.00_224_1/block_12_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/Conv_1_bn/FusedBatchNorm" out_port_id="0"/>
+		<IR id="96" name="mobilenetv2_1.00_224_1/Conv_1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_1_depthwise_relu/Relu6" out_port_id="0"/>
+		<IR id="9" name="mobilenetv2_1.00_224_1/block_1_depthwise_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_16_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="92" name="mobilenetv2_1.00_224_1/block_16_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_13_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="76" name="mobilenetv2_1.00_224_1/block_13_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_15_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="86" name="mobilenetv2_1.00_224_1/block_15_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_9_add/add" out_port_id="0"/>
+		<IR id="56" name="mobilenetv2_1.00_224_1/block_9_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_4_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="24" name="mobilenetv2_1.00_224_1/block_4_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_3_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="17" name="mobilenetv2_1.00_224_1/block_3_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_5_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="30" name="mobilenetv2_1.00_224_1/block_5_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_11_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="62" name="mobilenetv2_1.00_224_1/block_11_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_3/Relu" out_port_id="0"/>
+		<IR id="102" name="dense_3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_4_add/add" out_port_id="0"/>
+		<IR id="27" name="mobilenetv2_1.00_224_1/block_4_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_10_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="59" name="mobilenetv2_1.00_224_1/block_10_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_2_depthwise_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="13" name="mobilenetv2_1.00_224_1/block_2_depthwise/depthwise" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_16_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="91" name="mobilenetv2_1.00_224_1/block_16_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_2_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="15" name="mobilenetv2_1.00_224_1/block_2_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_15_expand_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="85" name="mobilenetv2_1.00_224_1/block_15_expand/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_8_add/add" out_port_id="0"/>
+		<IR id="50" name="mobilenetv2_1.00_224_1/block_8_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_13_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="75" name="mobilenetv2_1.00_224_1/block_13_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_6_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="35" name="mobilenetv2_1.00_224_1/block_6_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_6_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="38" name="mobilenetv2_1.00_224_1/block_6_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_12_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="72" name="mobilenetv2_1.00_224_1/block_12_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_10_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="61" name="mobilenetv2_1.00_224_1/block_10_project/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_14_add/add" out_port_id="0"/>
+		<IR id="84" name="mobilenetv2_1.00_224_1/block_14_add/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_7_expand_relu/Relu6" out_port_id="0"/>
+		<IR id="40" name="mobilenetv2_1.00_224_1/block_7_expand_relu/Relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mobilenetv2_1.00_224_1/block_15_project_BN/FusedBatchNorm" out_port_id="0"/>
+		<IR id="89" name="mobilenetv2_1.00_224_1/block_15_project/Conv2D" out_port_id="3"/>
+	</map>
+</mapping>
