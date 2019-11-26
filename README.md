@@ -26,10 +26,15 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 
 ### 데이터
 데이터를 다운로드 후 `data`폴더 안에 옮겨주시길 바랍니다.
-- Fashion MNIST :
-- Kaggle Cat & Dog : 
-- Kaggle Intel Scene Image :
-- VOC2012 : 
+- Fashion MNIST : https://drive.google.com/open?id=1H-hCU9xULhORBbSlnyAXfzJPR-6myFai
+- Kaggle Cat & Dog : https://drive.google.com/open?id=1udAgSe0hqUzkqvl_PoHIYvCD-V_z-v0B
+- Kaggle Intel Scene Image : https://drive.google.com/open?id=1ec4Urjxvif0fenMyl6Jl1A1SW104yiDW
+- VOC2012 : https://drive.google.com/open?id=1k5U4ekqwYT7993Cl4gFZHxBTFM3h6RLF
+
+혹은 아래의 명령어를 통해서 다운로드할 수 있습니다
+```
+sh ./download-data.sh
+```
 
 ### 모델
 모델을 다운로드 후 `bin`폴더 안에 옮겨주시길 바랍니다.
