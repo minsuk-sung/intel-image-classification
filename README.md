@@ -15,7 +15,6 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 (base) cd intel-image-classification
 (base) conda create -n keras python=3.6
 (base) conda activate keras
-(keras) mkdir bin data
 (keras) pip install -r requirements.txt
 (keras) jupyter notebook .
 ```
