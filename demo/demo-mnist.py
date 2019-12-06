@@ -2,6 +2,7 @@ import os
 import sys
 import warnings
 
+sys.path.insert(0,'..')
 warnings.filterwarnings('ignore')
 
 import cv2
@@ -19,7 +20,7 @@ capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH,640)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT,480)
 
-model = load_model('../bin/mnist_cnn.h5')
+model = load_model('./bin/mnist_cnn.h5')
 
 (major_ver,minor_ver,subminor_ver) = cv2.__version__.split('.')
 
