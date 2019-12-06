@@ -78,3 +78,8 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 ## Contact
 > 성민석(Minsuk Sung) : mssung94@gmail.com  
 > 류회성(Hoesung Ryu) : skainof23@gmail.com
+
+## Licence
+The MIT License (MIT)
+
+Copyright (c) 2019 Minsuk Sung, Hoesung Ryu
