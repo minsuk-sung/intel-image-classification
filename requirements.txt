@@ -1,14 +1,23 @@
 tqdm
+<<<<<<< HEAD
 numpy
 pandas
 Keras==2.3.1
 tensorflow==1.14.0
 graphviz
 Pillow==6.2.0
+=======
+pillow
+numpy==1.17.2
+pandas==0.25.1
+Keras==2.3.1
+tensorflow==1.14.0
+graphviz==0.13
+>>>>>>> 651f915e35ff825ac5886d5c004e918bcfa11930
 pydot==1.4.1
 scikit-learn==0.21.3
 scipy==1.3.1
-seaborn==0.9.0
+seaborn
 selenium==3.141.0
 test-generator==0.1.1
 defusedxml==0.5.0
@@ -16,3 +25,4 @@ networkx==2.3
 google-images-download==2.8.0
 jupyter
 opencv-python
+pygame
