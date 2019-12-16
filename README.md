@@ -15,21 +15,22 @@ Keras를 이용하여 여러가지 데이터셋을 학습 후 다양한 CNN모�
 ## Enviroments
 모든 강의자료는 아나콘다를 통해 가상환경을 생성한 뒤 아래와 같은 명령어를 통해 환경설정을 할 수 있습니다.
 괄호 안은 가상환경의 이름이므로 괄호 이후 문자열을 복사하여 터미널에 입력해주시길 바랍니다. 
-```
-(base) git clone https://github.com/mssung94/intel-image-classification.git
-(base) cd intel-image-classification
-(base) conda create -n keras python=3.6
-(base) conda activate keras
-(keras) mkdir data
-(keras) pip install -r requirements.txt
-(keras) jupyter notebook .
+```zsh
+> git clone https://github.com/mssung94/intel-image-classification.git
+> cd intel-image-classification
+> pip3 install virtualenv  
+> virtualenv myvenv --python=python3
+> source myvenv/bin/activate
+> (myvenv) mkdir data
+> (myvenv) pip3 install -r requirements.txt
+> (myvenv) jupyter notebook .
 ```
 
 ### Essential Library  
 추후에 Keras의 h5파일을 Tensorflow의 pb파일로 바꾸는 과정과 pb파일을 OpenVINO의 xml과 bin파일로 바꾸는 과정에서 필수적으로 사용되는 라이브러리는 아래와 같습니다. 아래와 다른 환경설정시 변환에 어려움이 있을 수 있습니다.
 > `Tensorflow` : **1.14**  
 > `Keras` : **2.3.1**  
-> `networkx` : **2.3** # For Converting h5 to pb
+> `networkx` : **2.3**
 
 ---
 
