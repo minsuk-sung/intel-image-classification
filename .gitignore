@@ -2,6 +2,7 @@
 bin
 data
 models
+myvenv
 
 # Files
 nohup.out
