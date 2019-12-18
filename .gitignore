@@ -3,6 +3,7 @@ bin
 data
 models
 myvenv
+.vscode
 
 # Files
 nohup.out
