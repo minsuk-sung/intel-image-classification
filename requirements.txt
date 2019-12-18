@@ -5,10 +5,7 @@ Keras==2.3.1
 tensorflow==1.14.0
 graphviz
 pillow
-numpy==1.17.2
 pandas==0.25.1
-Keras==2.3.1
-tensorflow==1.14.0
 graphviz==0.13
 pydotplus
 pydot==1.4.1
