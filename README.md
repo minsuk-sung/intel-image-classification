@@ -43,7 +43,7 @@
 - Fashion MNIST : https://drive.google.com/open?id=1H-hCU9xULhORBbSlnyAXfzJPR-6myFai
 - Kaggle Cat & Dog : https://drive.google.com/open?id=1udAgSe0hqUzkqvl_PoHIYvCD-V_z-v0B
 - Kaggle Intel Scene Image : https://drive.google.com/open?id=1ec4Urjxvif0fenMyl6Jl1A1SW104yiDW
-- VOC2012 : https://drive.google.com/open?id=1k5U4ekqwYT7993Cl4gFZHxBTFM3h6RLF
+- VOC2012 : https://drive.google.com/open?id=10oEH4JDSLA6ifMayOqP0NhoymjcCiDDG
 
 ### Model
 모델을 다운로드 후 `bin`폴더 안에 옮겨주시길 바랍니다.
