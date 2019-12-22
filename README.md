@@ -65,7 +65,11 @@
 |7강 |`ResNet50 모델`을 통하여 **Kaggle Intel Scene Image 데이터셋**을 학습 후 이미지 분류|
 |8강 |`MobileNet 모델`을 통하여 **VOC2012**에 속해 있는 20가지 데이터셋을 학습 후 이미지 분류|
 |9강 |`Keras h5파일`을 `Tensorflow pb파일`를 거쳐 `OpenVINO xml,bin파일`로 변환 후 **OpenVINO를 이용**하여 이미지 분류| 
-|10강|`OpenVINO`를 통해 실시간으로 이미지 분류|
+|10강|`OpenVINO를 이용`하여 변환된 `MobileNetV2`로 **실시간으로** 이미지 분류|
+
+## Licence
+The MIT License (MIT)
+Copyright (c) 2019 Minsuk Sung, Hoesung Ryu
 
 ## Reference
 - Intel Korea : https://www.intel.co.kr/content/www/kr/ko/company-overview/company-overview.html
@@ -79,8 +83,3 @@
 ## Contact
 > 성민석(Minsuk Sung) : mssung94@gmail.com  
 > 류회성(Hoesung Ryu) : skainof23@gmail.com
-
-## Licence
-The MIT License (MIT)
-
-Copyright (c) 2019 Minsuk Sung, Hoesung Ryu
