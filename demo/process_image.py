@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 
 
 # loading pre trained model
-model = load_model('bin/mnist_cnn.h5')
+model = load_model('../bin/mnist_cnn.h5')
 
 def predict_digit(img):
     test_image = img.reshape(-1,28,28,1)
